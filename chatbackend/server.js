@@ -42,7 +42,7 @@ const authLimiter = rateLimit({
 app.use(express.json());
 // using app.use(cors()); is not enough , to use cookies we should use ->
 app.use(cors({
-    origin: process.env.FRONTEND_URL || 'http://localhost:5173', //frontend url
+    origin: ['https://regal-gingersnap-963629.netlify.app'], //frontend url
     credentials: true                //required to allow cookies
 }));
 app.use(cookieParser());

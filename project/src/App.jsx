@@ -96,9 +96,9 @@ function LandingPage() {
       comment: "Our team productivity has increased by 40% since switching to this platform."
     },
     {
-      name: "Emma Johnson",
-      role: "Designer",
-      company: "Creative Studio",
+      name: "Tejashree",
+      role: "Student",
+      company: "MRU",
       rating: 5,
       comment: "Beautiful interface and seamless experience. Highly recommended!"
     }
@@ -203,17 +203,14 @@ function LandingPage() {
 
             <div className="flex justify-center items-center space-x-8 pt-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-400">1M+</div>
-                <div className="text-gray-400">Active Users</div>
+                <div className="text-3xl font-bold text-blue-400">Real time</div>
+                <div className="text-gray-400">messaging</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-purple-400">99.9%</div>
                 <div className="text-gray-400">Uptime</div>
               </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-green-400">50+</div>
-                <div className="text-gray-400">Countries</div>
-              </div>
+              
             </div>
           </div>
         </div>
