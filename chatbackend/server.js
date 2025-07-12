@@ -373,7 +373,4 @@ app.use((error, req, res, next) => {
     res.status(500).send({ message: "Internal server error" });
 });
 
-// 404 handler
-app.use('/*', (req, res) => {
-    res.status(404).send({ message: "Route not found" });
-});
+
