@@ -13,7 +13,7 @@ const nodemailer = require('nodemailer');
 const { createEmailTemplate} = require('./email-template.js');
 
 // const app = express()   no need of this app as we created app in socket.js and imported it
-
+//ready for deployment
 // Security middleware
 app.use(helmet({
     crossOriginEmbedderPolicy: false,
