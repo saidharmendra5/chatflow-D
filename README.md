@@ -9,16 +9,16 @@ A real-time chat application built using the **MERN Stack** with **Socket.IO** f
 
 ## 📸 Screenshots
 
-### 🔐 Login Page
+### 🔐 Landing Page
 ![Login Screenshot](https://github.com/user-attachments/assets/0836413a-27ca-48e7-a5b2-29b412190e05)
 
-### 🧑‍🤝‍🧑 Chat UI - Desktop
+### 🧑‍🤝‍🧑 Login/Sign up UI - Desktop
 ![Chat Screenshot 1](https://github.com/user-attachments/assets/dee9d697-c1ca-4e6b-99a0-a810cd5d1123)
 
 ### 💬 Conversation View
 ![Chat Screenshot 2](https://github.com/user-attachments/assets/7b086be4-9b6c-4d0e-baa0-b01aa32267fd)
 
-### 📱 Responsive Mobile View
+### 📱 Profile Page
 ![Mobile View](https://github.com/user-attachments/assets/f7b3b4a1-1528-44ed-9168-5ede3a6c79c8)
 
 ---
