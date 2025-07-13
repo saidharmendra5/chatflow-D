@@ -100,7 +100,7 @@ app.post('/chat/register', authLimiter, asyncHandler(async (req, res) => {
     const otp = Math.floor(100000 + Math.random() * 900000);
 
     // creating transporter for  sending emails :
-    const transporter = nodemailer.createTransporter({
+    const transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
             user: process.env.EMAIL,
